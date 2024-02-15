@@ -30,7 +30,7 @@ async def start(_, message):
             InlineKeyboardButton("➕𝖠𝖣𝖣 𝖬𝖤 𝖨𝖭 𝖸𝖮𝖴𝖱 𝖦𝖱𝖮𝖴𝖯➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-            InlineKeyboardButton("🆘𝖲𝖴𝖯𝖱𝖮𝖳🆘", url="https://t.me/DAXXSUPPORT"),
+            InlineKeyboardButton("🆘𝖲𝖴𝖯𝖱𝖮𝖳🆘", url="https://t.me/VOICEOFHEART0"),
             InlineKeyboardButton("🧑‍💻𝖣𝖤𝖵🧑‍💻", user_id=OWNER_ID)
         ]
     ]
@@ -38,7 +38,7 @@ async def start(_, message):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await message.reply_photo(
-        photo="https://graph.org/file/f77b368fdbc1431973c36.jpg",
+        photo="https://telegra.ph/file/3a62aea2e65023f9a27d2.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
